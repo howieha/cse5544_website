@@ -14,7 +14,7 @@
 
 const Graph = ForceGraphVR()
     (document.getElementById("3d-graph"))
-    .jsonUrl('../data/input.json')
+    .jsonUrl('./data/input.json')
     .cooldownTicks(200)
     .nodeLabel('group')
     .nodeVal('val')
