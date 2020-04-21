@@ -45,7 +45,7 @@ function getGraphDataSets() {
 			.forceEngine('ngraph')
 	};
 
-	return [cluster15_node8, cluster15_node8_col, cluster30_node8, cluster30_node8_col]
+	return [cluster15_node8, cluster30_node8, cluster15_node8_col, cluster30_node8_col]
 }
 
 const Graph = ForceGraphVR()
